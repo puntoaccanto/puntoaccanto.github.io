@@ -1,0 +1,11 @@
+#b2b6b4 dominant gray
+#d0d4d2 lighter gray
+#c3ccd4 light bluegrayish
+
+#7c6265 redish brown
+#783934 darker redish brown
+
+
+#d4cbcb light pinky
+
+#6d504b brown
