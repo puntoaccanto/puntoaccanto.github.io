@@ -116,7 +116,8 @@ body{
 .image_details_container img {
   margin-right: 15%;
   margin-left: 15%;
-  margin-bottom: 5%;
+  margin-bottom: 3%;
+  margin-top:3%;
   width: 70%;
   max-width: 625px;
   border: solid;
