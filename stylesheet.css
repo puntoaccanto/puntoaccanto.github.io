@@ -12,23 +12,28 @@ body{
 
 .topnav{
   padding: 2rem 2rem;  
+  background-color: white;
+  position: fixed;
+  top: 0px;
+  width: 100%;
 }
 
 .topnav nav {
   display: flex;
-  justify-content: flex-end;
+  justify-content:center;
   
 }
 
 .topnav a {
   float: right;
-  color: #b2b6b4;
+  color: #8b8b8b;
   text-align: center;
   padding: 1.5rem 2rem;  
-  font-size: 1.5rem;  
+  font-size: 3rem;  
   /* font-weight: 700; */
   margin: 0;
   font-family: 'Work Sans', sans-serif;
+  
 
 }
 
@@ -111,7 +116,8 @@ body{
 	font-family: 'Tangerine', serif;
 	font-style:italic;
   font-size: 7rem;
-  margin-bottom: 7%;
+  
+  margin-top: 4%;
 }
 .image_details_container img {
   margin-right: 15%;
@@ -180,7 +186,6 @@ body{
 .text-container img{
   margin-right: 15%;
   margin-left: 15%;
-  
   width: 70%;
   max-width: 625px;
   border: solid;
@@ -219,28 +224,24 @@ body{
 
 
 
-/* Footer */
+/* Top Button */
 
-footer {
-  font-size: 12px;
-  padding: 20px 0;
+#myBtn {
+  display: none; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 20px; /* Place the button at the bottom of the page */
+  right: 30px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color: #4b6072; /* Set a background color */
+  color: white; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 15px; /* Some padding */
+  border-radius: 10px; /* Rounded corners */
+  font-size: 18px; /* Increase font size */
 }
 
-footer .col-sm-8 {
-  display: flex;
-  justify-content: flex-end;
+#myBtn:hover {
+  background-color: #8fa0ad; /* Add a dark-grey background on hover */
 }
-
-footer ul {
-  list-style: none;
-}
-
-footer li img {
-  width: 32px;
-  height: 32px;
-}
-
-
-
-
-
